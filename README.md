@@ -7,11 +7,13 @@ This version uses source codes from the R package `randomForest` by Andy Liaw
 and Matthew Weiner and the original Fortran codes by Leo Breiman and Adele
 Cutler.
 
+This package also includes the use of PBDR.
+
 To download and install the package, use `devtools`
 
 ```r
 library(devtools)
-devtools::install_github("sumbose/iRF")
+devtools::install_github("Jromero1208/PBDRiRF")
 ```
 
 You can subsequently load the package with the usual R commands:
